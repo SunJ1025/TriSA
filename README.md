@@ -4,7 +4,7 @@
 
 ## Prerequisites
 - Python 3.6
-- GPU Memory >= 4G
+- GPU Memory >= 8G
 - Numpy
 - Pytorch 0.3+ (http://pytorch.org/)
 
