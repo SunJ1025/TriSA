@@ -63,7 +63,7 @@ sh make.sh
 ```
 
 ## Train and Test
-We provide scripts to complete FSRA training and testing
+We provide scripts to complete TriSSA training and testing
 * Change the **data_dir** and **test_dir** paths and then run:
 ```shell
 python train.py --gpu_ids 0 --name traied_model_name --train_all --batchsize 32  --data_dir your_data_path
