@@ -66,7 +66,7 @@ python test.py --gpu_ids 0 --name traied_model_name --test_dir your_data_path  -
 
 
 ### Thanks
-1. Zhedong Zheng, [Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective](https://dl.acm.org/doi/10.1145/3394171.3413896)
+1. Zhedong Zheng, [University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization](https://dl.acm.org/doi/10.1145/3394171.3413896)
 2. Xuanmeng Zhang, [Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective](https://arxiv.org/abs/2012.07620)
 
 
