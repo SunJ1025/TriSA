@@ -52,15 +52,6 @@ If you are using the gpu-based re-ranking, make sure to compile the file by:
 cd evaluation/
 sh make.sh
 ```
-### Citation
-```bibtex
-@article{zhang2020understanding,
-  title={Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective},
-  author={Xuanmeng Zhang, Minyue Jiang, Zhedong Zheng, Xiao Tan, Errui Ding, Yi Yang},
-  journal={arXiv preprint arXiv:2012.07620},
-  year={2020}
-}
-```
 
 ## Train and Test
 We provide scripts to complete TriSSA training and testing
@@ -72,3 +63,20 @@ python train.py --gpu_ids 0 --name traied_model_name --train_all --batchsize 32 
 ```shell
 python test.py --gpu_ids 0 --name traied_model_name --test_dir your_data_path  --batchsize 32 --which_epoch 120
 ```
+
+
+### Thanks
+1. Zhedong Zheng, [Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective](https://dl.acm.org/doi/10.1145/3394171.3413896)
+2. Xuanmeng Zhang, [Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective](https://arxiv.org/abs/2012.07620)
+
+
+
+<!-- ### Citation
+```bibtex
+@article{zhang2020understanding,
+  title={Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective},
+  author={Xuanmeng Zhang, Minyue Jiang, Zhedong Zheng, Xiao Tan, Errui Ding, Yi Yang},
+  journal={arXiv preprint arXiv:2012.07620},
+  year={2020}
+}
+``` -->
