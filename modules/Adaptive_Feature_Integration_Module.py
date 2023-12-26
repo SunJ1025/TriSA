@@ -6,11 +6,11 @@ class AFIM(nn.Module):
     def __init__(self, channel=2048, reduction=16):
         super().__init__()
 
-        self.avgpool2 = nn.AdaptiveAvgPool2d((1,1))
-        self.maxpool2 = nn.AdaptiveMaxPool2d((1,1))
+        self.avgpool2 = nn.AdaptiveAvgPool2d((1, 1))
+        self.maxpool2 = nn.AdaptiveMaxPool2d((1, 1))
 
-        self.avgpool = nn.AdaptiveAvgPool2d((1,1))
-        self.maxpool = nn.AdaptiveMaxPool2d((1,1))
+        self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
+        self.maxpool = nn.AdaptiveMaxPool2d((1, 1))
 
         self.fc = nn.Sequential(
             nn.Linear(channel, channel // reduction, bias=False),
