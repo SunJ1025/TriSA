@@ -1,4 +1,4 @@
-# TriSSA: A Three Stage Strong Approach for UAV-Satellite Cross-View Geo-Localization Based on Self-Supervised Feature Enhancement
+# TriSA: A Three Stage Approach for UAV-Satellite Cross-View Geo-Localization Based on Self-Supervised Feature Enhancement
 
 ![Python 3.6+](https://img.shields.io/badge/README-ENGLISH-green.svg)
 
